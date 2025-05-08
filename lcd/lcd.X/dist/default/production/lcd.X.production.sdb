@@ -1,0 +1,137 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F458 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"18 C:\Users\HP\MPLABXProjects\lcd.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"38
+[v _msdelay msdelay `(v  1 e 1 0 ]
+"45
+[v _init_LCD init_LCD `(v  1 e 1 0 ]
+"56
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+"65
+[v _LCD_data LCD_data `(v  1 e 1 0 ]
+"74
+[v _LCD_write_string LCD_write_string `(v  1 e 1 0 ]
+"10695 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC18Fxxxx_DFP/1.7.171/xc8\pic\include\proc/PIC18f458.h
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S47 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+]
+"10923
+[s S51 . 1 `uc 1 AN5 1 0 :1:0 
+`uc 1 AN6 1 0 :1:1 
+`uc 1 AN7 1 0 :1:2 
+]
+[s S55 . 1 `uc 1 NOT_RD 1 0 :1:0 
+]
+[s S57 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_WR 1 0 :1:1 
+]
+[s S60 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_CS 1 0 :1:2 
+]
+[s S63 . 1 `uc 1 nRD 1 0 :1:0 
+`uc 1 nWR 1 0 :1:1 
+`uc 1 nCS 1 0 :1:2 
+]
+[s S67 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+]
+[s S71 . 1 `uc 1 PD2 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+`uc 1 CCP10 1 0 :1:2 
+]
+[s S75 . 1 `uc 1 RDE 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+`uc 1 PB2 1 0 :1:2 
+]
+[u S79 . 1 `S47 1 . 1 0 `S51 1 . 1 0 `S55 1 . 1 0 `S57 1 . 1 0 `S60 1 . 1 0 `S63 1 . 1 0 `S67 1 . 1 0 `S71 1 . 1 0 `S75 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES79  1 e 1 @3972 ]
+"12163
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"12385
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"14578
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"18 C:\Users\HP\MPLABXProjects\lcd.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"19
+[v main@var1 var1 `[14]uc  1 a 14 10 ]
+"20
+[v main@var2 var2 `[6]uc  1 a 6 24 ]
+"18
+[v main@F5595 F5595 `[14]uc  1 s 14 F5595 ]
+"19
+[v main@F5597 F5597 `[6]uc  1 s 6 F5597 ]
+"36
+} 0
+"45
+[v _init_LCD init_LCD `(v  1 e 1 0 ]
+{
+"54
+} 0
+"56
+[v _LCD_command LCD_command `(v  1 e 1 0 ]
+{
+[v LCD_command@cmd cmd `uc  1 p 1 wreg ]
+[v LCD_command@cmd cmd `uc  1 p 1 wreg ]
+[v LCD_command@cmd cmd `uc  1 p 1 6 ]
+"63
+} 0
+"74
+[v _LCD_write_string LCD_write_string `(v  1 e 1 0 ]
+{
+"75
+[v LCD_write_string@i i `i  1 a 2 8 ]
+"74
+[v LCD_write_string@str str `*.30uc  1 p 1 7 ]
+"81
+} 0
+"65
+[v _LCD_data LCD_data `(v  1 e 1 0 ]
+{
+[v LCD_data@data data `uc  1 p 1 wreg ]
+[v LCD_data@data data `uc  1 p 1 wreg ]
+[v LCD_data@data data `uc  1 p 1 6 ]
+"72
+} 0
+"38
+[v _msdelay msdelay `(v  1 e 1 0 ]
+{
+"39
+[v msdelay@j j `ui  1 a 2 4 ]
+[v msdelay@i i `ui  1 a 2 2 ]
+"38
+[v msdelay@time time `ui  1 p 2 0 ]
+"43
+} 0
